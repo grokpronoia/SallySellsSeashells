@@ -1,6 +1,6 @@
 from bittrex.bittrex import Bittrex, API_V2_0
 from datetime import datetime
-import time
+import time, dictKDB
 from pyq import q, K
 
 get_bittrex = Bittrex(None, None)
